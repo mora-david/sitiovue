@@ -43,7 +43,7 @@
 
       <div class="justify-content flex-container" id="prueba">
       
-<div class="cate" id="Cstores" v-for="categorie in categories.categories.slice(0, 8)" :key="id=categorie.id">
+<div class="cate" id="Cstores" v-for="categorie in categories.categories" :key="id=categorie.id">
               <div class="colorw">
                 <p class="icon"><i class="fas fa-volume-down icon"></i></p>
                 <a :href="'category/' + categorie.uuid">sitio</a>
